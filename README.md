@@ -1,3 +1,5 @@
-You can see my porftolio here:
+This is a resposive page created with HTML and CSS.
 
- <a href=https://natihernandez.github.io/my_portfolio/>Natalia Hernández</a>
+
+You can see my porftolio here:
+ <a href=https://natihernandez.github.io/my_portfolio/ target="_blank">Natalia Hernández</a>
