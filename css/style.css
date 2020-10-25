@@ -1,0 +1,243 @@
+body{   
+    margin: 0; 
+    background:#F0F0F0;
+}
+
+
+section{
+    width: auto;
+    height: auto;
+}
+
+#name{
+    height: 100vh;
+}
+section#firstSection{
+    background-color: white;
+}
+
+
+#firstSection{
+    padding-top: 50px;
+    width: auto;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#aboutMe{
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(121, 120, 121);
+}
+
+
+#miFoto{
+    width: 200px;
+    height: 300px;
+    border-radius: 50px;
+    margin: auto;
+    padding-top: 30px;
+    filter: grayscale(80%);
+}
+
+#miFoto img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+#miFoto:hover{
+    filter: grayscale(0%);
+}
+
+
+#nati{
+    font-size: 22px;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: black;
+    width: auto;
+    margin: auto;
+    line-height : 50px;
+    text-align: justify;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+
+.navbar-brand{
+    padding-left: 10px;
+}
+
+.fas.fa-chess-queen{
+    font-size: 25px;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1#nombre, #titulo{
+    font-size: 90px;
+    color:red;
+	animation-name: color_change;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes color_change {
+	from { color: rgb(24, 24, 24); }
+	to { color: rgb(122, 120, 122); }
+}
+
+
+#apellido{
+    font-size: 90px;
+    color:rgb(44, 43, 44);
+	animation-name: change_color;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes change_color {
+	from { color: rgb(24, 24, 24); }
+	to { color: rgb(122, 120, 122); }
+}
+
+
+#developer{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 3px rgb(129, 127, 127); 
+}
+
+
+span:hover{
+    color: white;
+    cursor: grabbing;
+    text-shadow:2px 2px 3px rgb(44, 43, 43); 
+}
+
+#secondSection{
+    padding-top: 60px;
+    width: auto;
+    height: auto;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#skills, #contact{
+    text-shadow: 1px 1px 12px rgb(156, 153, 153);
+}
+
+
+#flex{
+    padding-top: 50px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.icon{
+    margin: auto;
+    margin-bottom:40px ;
+    width: 400px;
+    height: 200px;
+    border: 1px solid white;
+    align-items: center;
+}
+
+.icon:hover{
+   box-shadow: 2px 2px 13px 10px grey;
+   background-color: white;
+   color: black;
+}
+
+
+
+#footer{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    width: auto;
+    height: 300px;
+    background-color:black ;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+.icon h1{
+    font-size: 30px;
+}
+
+
+.icon i{
+    margin-top: 10px;
+    font-size: 140px;
+}
+
+#footerFlex{
+    height: 200px;
+    display: flex;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footerFlex i{
+    font-size: 48px;
+}
+
+#footerFlex i:hover{
+    font-size: 50px;    
+    color: rgb(247, 240, 242);
+    cursor: grabbing;
+}
+
+@media (max-width: 1000px) {
+    
+    #firstSection{
+        padding-top: 5px;
+    }
+
+
+    #miFoto{
+        border-radius: 50px;
+        margin: auto;
+        padding-top: 10px;
+        filter: grayscale(80%);
+        padding-bottom: 40px;
+    }
+
+    #miFoto img{
+        width: 100%;
+        border-radius: 50px;
+    }
+
+
+    #nati{
+        font-size: 17px;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        display: flex;
+    }
+
+
+  }
