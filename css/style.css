@@ -211,6 +211,21 @@ a:link, a:visited, a:active {
 
 @media (max-width: 1000px) {
     
+    h1#nombre,
+    #apellido{
+        font-size: 50px;    
+    }
+
+    h1#aboutMe,
+    h1#skills,
+    h1#contact{
+        font-size: 40px;    
+    }
+
+    #developer{
+        font-size: 30px;
+    }
+
     #firstSection{
         padding-top: 5px;
     }
@@ -239,5 +254,22 @@ a:link, a:visited, a:active {
         display: flex;
     }
 
+    .icon{
+        width: 300px;
+    }
 
+
+  }
+
+
+  @media (max-width: 500px) {    
+      
+    #nati{
+    font-size: 15px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    display: flex;
+}
   }
